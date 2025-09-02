@@ -1,0 +1,43 @@
+.logo-profile {
+  width: 180px; /* or any size you prefer */
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover; /* ensures the image fills the circle without distortion */
+}
+
+.Hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 11px;
+}
+.Hero img {
+  margin-top: 20px;
+}
+.Hero h1 {
+  text-align: center;
+  width: 80%;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.Hero h1 span {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-action {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 5px;
+  .hero-connect {
+    padding: 9px 27px;
+    font-size: 16px;
+    cursor: pointer;
+    background: linear-gradient(#ff7e5f, #feb47b);
+    border-radius: 50px;
+    transition: 0.5s;
+  }
+}
