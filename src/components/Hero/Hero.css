@@ -33,11 +33,41 @@
   gap: 1rem;
   margin-top: 5px;
   .hero-connect {
-    padding: 9px 27px;
-    font-size: 16px;
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none; /* removes underline */
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(40, 167, 69, 0.3);
     cursor: pointer;
-    background: linear-gradient(#ff7e5f, #feb47b);
-    border-radius: 50px;
-    transition: 0.5s;
   }
+  .hero-connect:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(40, 167, 69, 0.4);
+  }
+}
+.resume-button {
+  display: inline-block;
+
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none; /* removes underline */
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+  cursor: pointer;
+}
+
+.resume-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 123, 255, 0.4);
 }

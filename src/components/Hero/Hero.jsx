@@ -8,15 +8,25 @@ const Hero = () => {
     <div className="Hero">
       <img className="logo-profile" src={profile_img} alt="logo" />
       <h1>
-        <span>I' Himanshu,</span> frontend developer based in India
+        <span>Himanshu </span> | Frontend Developer
       </h1>
       <p>
         Hi, I'm Himanshu — a Frontend Developer based in India with 8 years of
         experience building modern, user-focused web applications.
       </p>
       <div className="hero-action">
-        <div className="hero-connect">Connect with me</div>
-        <div className="hero-resume">My resume</div>
+        <a
+          href="https://www.naukri.com/mnjuser/homepage"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hero-connect"
+        >
+          Connect with me
+        </a>
+
+        <a href="/Resume-25.docx" download className="resume-button">
+          My Resume
+        </a>
       </div>
     </div>
   );

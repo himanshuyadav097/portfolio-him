@@ -16,7 +16,8 @@
   padding: 9px 27px;
   font-size: 16px;
   cursor: pointer;
-  background: linear-gradient(#ff7e5f, #feb47b);
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+
   border-radius: 50px;
   transition: 0.5s;
 }
