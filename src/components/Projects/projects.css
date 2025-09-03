@@ -34,3 +34,22 @@
 .projectcard-link {
   margin-top: 1rem;
 }
+@media (max-width: 480px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .project-card {
+    padding: 0.8rem;
+  }
+
+  .project-card h2 {
+    font-size: 1.1rem;
+  }
+
+  .project-card p {
+    font-size: 0.95rem;
+  }
+}

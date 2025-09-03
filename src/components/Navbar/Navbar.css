@@ -1,9 +1,19 @@
+/* ========== Base Styles ========== */
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 115px;
+  padding: 20px 115px;
+  flex-wrap: wrap;
 }
+
+.logo {
+  height: 50px;
+  width: 73px;
+  cursor: pointer;
+}
+
+/* Navigation menu */
 .nav-menu {
   display: flex;
   align-items: center;
@@ -12,21 +22,65 @@
   font-size: 20px;
   cursor: pointer;
 }
+
 .nav-connect {
   padding: 9px 27px;
   font-size: 16px;
   cursor: pointer;
   background: linear-gradient(to right, #00c6ff, #0072ff);
-
+  color: white;
   border-radius: 50px;
   transition: 0.5s;
+  text-decoration: none;
+  border: none;
 }
+
 .nav-connect:hover {
   transform: scale(1.05);
 }
-.logo {
-  height: 50px;
-  width: 73px;
-  box-shadow: 0cqmin;
-  cursor: pointer;
+
+/* ========== Responsive Styles ========== */
+
+/* Tablets and below */
+@media (max-width: 992px) {
+  .navbar {
+    padding: 20px 40px;
+  }
+
+  .nav-menu {
+    gap: 30px;
+    font-size: 18px;
+  }
+
+  .nav-connect {
+    padding: 8px 20px;
+    font-size: 15px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 1rem;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .nav-connect {
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo {
+    height: 45px;
+    width: auto;
+  }
 }
