@@ -11,7 +11,7 @@ const Hero = () => {
         <span>Himanshu </span> | Frontend Developer
       </h1>
       <p>
-        Hi, I'm Himanshu — a Frontend Developer based in India with 8 years of
+        Hi, I'm Himanshu — a Frontend Developer based in India with 7+ years of
         experience building modern, user-focused web applications.
       </p>
       <div className="hero-action">

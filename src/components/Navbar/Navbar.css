@@ -13,7 +13,6 @@
   cursor: pointer;
 }
 
-/* Navigation menu */
 .nav-menu {
   display: flex;
   align-items: center;
@@ -37,6 +36,21 @@
 
 .nav-connect:hover {
   transform: scale(1.05);
+}
+
+/* Hamburger Icon */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  transition: 0.3s;
 }
 
 /* ========== Responsive Styles ========== */
@@ -67,11 +81,38 @@
     gap: 1rem;
   }
 
+  .hamburger {
+    display: flex;
+    padding: 6px;
+  }
+  .nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
   .nav-menu {
+    display: none;
     flex-direction: column;
     align-items: flex-start;
-    gap: 15px;
     width: 100%;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+
+  .nav-menu-item {
+    width: 100%;
+  }
+
+  .nav-menu-item a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
   }
 
   .nav-connect {
@@ -84,6 +125,7 @@
     width: auto;
   }
 }
+
 /* Style all Links inside nav-menu-item */
 .nav-menu-item a {
   text-decoration: none;
@@ -93,5 +135,8 @@
 
 /* Optional: Add hover effect */
 .nav-menu-item a:hover {
-  color: #0072ff; /* or any accent color you prefer */
+  color: #0072ff;
+}
+.about-content ul li {
+  list-style: none;
 }

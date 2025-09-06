@@ -1,26 +1,28 @@
 import React from "react";
-import "./About.css"; // Optional: for external styling
+import "./About.css"; // Optional: external styles
 
 const About = () => {
   return (
     <section className="about-container">
       <div className="about-content">
-        <h1>About Us</h1>
+        <h1>About Me</h1>
         <p>
-          Welcome to our website! We're a passionate team of developers,
-          designers, and creators dedicated to building high-quality web
-          experiences that are fast, accessible, and beautiful.
+          I am a Software Developer with over 7+ years of experience in the IT
+          industry.
         </p>
 
-        <h2>Our Mission</h2>
-        <p>
-          Our mission is to deliver top-notch solutions that help individuals
-          and businesses thrive in the digital world. Whether it's a portfolio,
-          an e-commerce site, or a complex web application — we aim for
-          excellence.
-        </p>
+        <h2>Projects</h2>
+        <p>I have worked on various projects including:</p>
+        <ul>
+          <li>HB Next/Sequence</li>
+          <li>MatchupIT</li>
+          <li>The George Institute for Global Health</li>
+          <li>TGIDOCS For CMS</li>
+          <li>FAIRY TALES</li>
+        </ul>
+        <p>My skills include HTML, CSS, JavaScript, and React.</p>
 
-        <h2>Our Values</h2>
+        <h2>Core Values</h2>
         <ul>
           <li>
             <strong>Innovation:</strong> Constantly exploring new ideas.
@@ -37,19 +39,15 @@ const About = () => {
           </li>
         </ul>
 
-        <h2>What We Do</h2>
-        <p>
-          We specialize in:
-          <ul>
-            <li>Front-end development (React, Vue, Angular)</li>
-            <li>Back-end development (Node.js, Express, Django)</li>
-            <li>UI/UX Design</li>
-            <li>Performance Optimization</li>
-            <li>SEO & Accessibility</li>
-          </ul>
-        </p>
+        <h2>What I Do</h2>
 
-        <p>Thank you for visiting. We look forward to working with you!</p>
+        <ul>
+          <li>Front-end development (React)</li>
+          <li>UI Design</li>
+          <li>Performance Optimization</li>
+        </ul>
+
+        <p>Thank you for visiting. I look forward to working with you!</p>
       </div>
     </section>
   );
