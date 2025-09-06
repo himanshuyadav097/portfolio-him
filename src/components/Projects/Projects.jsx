@@ -35,7 +35,7 @@ const projects1 = [
     title: "TGIDOCS",
     description: "All documents in one place for The George Institute.",
     link: "https://tgidocs.techletsolutions.com/",
-    stack: "React, Redux",
+    stack: "Drupal 7, PHP/MySQL, CSS, JavaScript",
   },
   {
     title: "FAIRY TALES",

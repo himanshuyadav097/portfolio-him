@@ -84,3 +84,14 @@
     width: auto;
   }
 }
+/* Style all Links inside nav-menu-item */
+.nav-menu-item a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+/* Optional: Add hover effect */
+.nav-menu-item a:hover {
+  color: #0072ff; /* or any accent color you prefer */
+}

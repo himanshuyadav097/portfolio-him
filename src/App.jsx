@@ -1,15 +1,16 @@
+// App.js
 import "./App.css";
 import Footer from "./components/Footer/Footer";
-import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
-import Projects from "./components/Projects/Projects";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Projects />
+      <main>
+        <Outlet />
+      </main>
       <Footer />
     </>
   );
