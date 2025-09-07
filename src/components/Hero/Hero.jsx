@@ -1,6 +1,5 @@
 import React from "react";
 import "./Hero.css";
-
 import profile_img from "./../../assets/logo-profile.jpg";
 
 const Hero = () => {
@@ -10,6 +9,7 @@ const Hero = () => {
       <h1>
         <span>Himanshu </span> | Frontend Developer
       </h1>
+
       <p>
         Hi, I'm Himanshu — a Frontend Developer based in India with 7+ years of
         experience building modern, user-focused web applications.

@@ -5,6 +5,5 @@
 }
 
 body {
-  background-color: #eeeee4;
-  background-image: radial-gradient(circle at center, #ffffff, #eeeee4);
+  background-color: rgb(247 247 248 / var(--tw-bg-opacity));
 }

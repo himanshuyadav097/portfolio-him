@@ -12,8 +12,8 @@
   border: 1.2px solid #ccc;
   padding: 1.5rem;
   border-radius: 8px;
-  background-color: ghostwhite;
-  transition: box-shadow 0.3s ease, transform 0.3s ease; /* added transform */
+  background-color: #f9f9f9;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
   cursor: pointer;
 }
 

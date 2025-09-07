@@ -1,0 +1,21 @@
+.main-contanot {
+  display: flex;
+  width: 100%;
+  .left-side {
+    width: 20%;
+    ul li {
+      list-style: none;
+      text-align: left;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      cursor: pointer;
+    }
+  }
+  .right-side {
+    width: 80%;
+    min-height: 400px;
+    p {
+      text-align: justify;
+    }
+  }
+}
